@@ -5,6 +5,7 @@ const FeedbackData = [
         amount: 33,
         description: "Gas",
         recurring: false,
+        income: false,
     },
     {
         id: 2,
@@ -12,13 +13,15 @@ const FeedbackData = [
         amount: 25,
         description: "Netflix",
         recurring: true,
+        income: false,
     },
     {
         id: 3,
         date: "01/23/15",
         amount: 124,
-        description: "Steam games",
+        description: "Photos for Teg",
         recurring: false,
+        income: true,
     },
 ]
 

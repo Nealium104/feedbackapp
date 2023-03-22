@@ -29,6 +29,7 @@ FeedbackList.propTypes = {
       amount: PropTypes.number.isRequired,
       description: PropTypes.string.isRequired,
       recurring: PropTypes.bool.isRequired,
+      income: PropTypes.bool.isRequired,
     })
   )
 }

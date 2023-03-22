@@ -46,6 +46,11 @@ header {
   color: #fff;
 }
 
+.income .num-display {
+  background-color: #59b56d;
+  color: #fff;
+}
+
 .card h2 {
   font-size: 22px;
   font-weight: 600;

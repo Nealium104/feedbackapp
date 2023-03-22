@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 
 function FeedbackItem({item, handleDelete}) {
   return (
-    <Card>
+    <Card income={item.income}>
         <div className="num-display">{item.amount}</div>
         <button onClick={() => handleDelete(item.id)} className="close">
           <FaTimes color='black' />
